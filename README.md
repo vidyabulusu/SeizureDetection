@@ -27,7 +27,7 @@ The dimensionality reduction will be needed to reduce 178 variables into a more 
 
 In the real world, a neurologist is trained to read the output of an EEG recording and find evidence of abnormal activity. However, this cannot be performed by the patients themselves or by any other monitoring devices that are currently available, based on the EEG data.
 
-**Data Analysis Report**
+
 
 **_Data Definition_**
 
@@ -39,27 +39,11 @@ The dataset contains the following:
 
 3. Last column ‘y’ which is the target variable containing values ranging from 1 to 5. Value 1 corresponds to seizure and the rest correspond to other states of the patient during the recording.
 
-Using pandas, we have the following view of the data:
-
-![A picture containing text
-
-Description automatically generated](blob:https://stackedit.io/0345c417-f138-4d47-a4f6-077c9b7524ca)
 
 Using pandas_profiling, I was able to get the data definition for each parameter.
 
-Parameters x1 to x178 have similar distribution. The html file containing all the information has been separately uploaded as “_output.html_”.
+Parameters x1 to x178 have similar distribution.
 
-![Table
-
-Description automatically generated](blob:https://stackedit.io/022e62a9-c813-4174-a4f3-2a2eb87ae4c2)
-
-![Graphical user interface, table
-
-Description automatically generated](blob:https://stackedit.io/4fbec870-e97b-4bd0-aee1-4632f87b48b4)
-
-![Graphical user interface, application, table
-
-Description automatically generated](blob:https://stackedit.io/5813ec1b-0182-43e6-8d32-216f46e5abd1)
 
 **_Transformations required:_**
 
