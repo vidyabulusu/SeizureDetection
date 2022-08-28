@@ -115,11 +115,6 @@ The following visualizations are included in the Jupyter Notebook:
 
 5. ROC curve for each model
 
-**_References:_**
-
-1. [https://scikit-learn.org/stable/modules/generated/sklearn.metrics.ConfusionMatrixDisplay.html#sklearn.metrics.ConfusionMatrixDisplay](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.ConfusionMatrixDisplay.html#sklearn.metrics.ConfusionMatrixDisplay)
-
-2. [https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc_crossval.html](https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc_crossval.html) [updated]
 
 **_Selected Model:_**
 
@@ -180,3 +175,11 @@ The results along with the confusion matrix are plotted in the Jupyter Notebook.
 · There are a few public universities that have published raw EEG data. It would be interesting to apply this algorithm on raw EEG data to predict the results and compare the accuracy.
 
 · It would be interesting to apply Recurrent Neural Networks and see how they perform on this data
+
+
+**_References:_**
+
+1. [https://scikit-learn.org/stable/modules/generated/sklearn.metrics.ConfusionMatrixDisplay.html#sklearn.metrics.ConfusionMatrixDisplay](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.ConfusionMatrixDisplay.html#sklearn.metrics.ConfusionMatrixDisplay)
+
+2. [https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc_crossval.html](https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc_crossval.html)
+
